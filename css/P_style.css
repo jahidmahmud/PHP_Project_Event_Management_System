@@ -1,0 +1,121 @@
+body{
+    font:16px arial;
+    margin: 0;
+    padding: 0;
+    background: #d1d1d1;
+}
+
+#wrapper{
+    width: 1000px;
+    margin: 50px auto 0;
+    background-color: #fff;
+}
+
+#header{
+    text-align: center;
+     background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 10px;
+}
+
+#header h1{
+    color: #fff;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 700;
+    /*text-transform: uppercase;*/
+    margin: 0;
+}
+
+#menu{
+    background-color: #333;
+}
+#menu ul{
+    font-size: 0;
+    padding: 0 10px;
+    margin: 0;
+    list-style: none;
+}
+#menu ul li{
+    display: inline-block;
+}
+#menu ul li a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+#menu ul li a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+#main-content{
+     padding: 25px;
+    min-height: 400px;
+}
+#main-content h2{
+    margin: 0 0 10px;
+    text-transform: capitalize;
+}
+
+#main-content table{
+    width: 100%;
+    background-color: #555;
+    margin: 0 0 20px;
+}
+
+#main-content table th{
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+}
+#main-content table th:last-child{
+    width: 130px;
+}
+#main-content table td{
+    background-color: #fff;
+}
+#main-content table td a{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px 7px;
+    color: #fff;
+    background-color: #e67e22;
+    text-decoration: none;
+    border-radius: 3px;
+}
+#main-content table td a:nth-child(2){
+    background-color: #e74c3c;
+    margin: 0 0 0 5px;
+}
+
+
+/*footer*/
+.footer_container{
+    border-top: 5px solid #6b710e;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+
+}
+.footer_container a{
+    color: #0fa99b;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer_container p{
+    color: gray;
+    margin-top: 20px;
+}
+
+.footer_container a:hover{
+    text-decoration: none;
+    color:#e81c0f;
+
+}

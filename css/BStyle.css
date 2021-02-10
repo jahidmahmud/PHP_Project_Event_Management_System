@@ -1,0 +1,34 @@
+#main-content{
+     padding: 25px;
+    min-height: 100px;
+}
+#main-content h2{
+    margin: 0 0 10px;
+    text-transform: capitalize;
+}
+
+#main-content table{
+    width: 100%;
+    background-color: #555;
+    margin: 0 0 10px;
+}
+
+#main-content table th{
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+}
+#main-content table th:last-child{
+    width: 750px;
+
+}
+#main-content table td{
+    background-color: white;
+    text-align: center;
+}
+
+#textarea{
+   resize:none;
+  overflow:auto;
+}
+

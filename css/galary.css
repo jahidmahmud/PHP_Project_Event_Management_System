@@ -1,0 +1,60 @@
+div.gallery {
+  margin: 20px;
+  width: 700px;
+  margin-left: 80px;
+}
+div.gallery1 {
+  margin: 20px;
+  width: 700px;
+  margin-left: 650px;
+  margin-top: -372px;
+}
+div.gallery2 {
+  margin: 20px;
+  width: 700px;
+  margin-left: 650px;
+  margin-top: -325px;
+}
+div.gallery img {
+  width: 65%;
+  height: auto;
+}
+div.gallery1 img {
+  width: 65%;
+  height: auto;
+}
+div.gallery2 img {
+  width: 65%;
+  height: auto;
+}
+#images{
+	width: 700px;
+	border-bottom: 5px solid #6b710e;
+    vertical-align: middle;
+}
+div.gallery:hover {
+  color: teal;
+}
+div.gallery1:hover {
+  color: teal;
+}div.gallery2:hover {
+  color: teal;
+}
+div.desc {
+  padding: 15px;
+  text-decoration: italic;
+}
+
+
+
+
+
+
+
+
+
+     
+
+      
+
+      
